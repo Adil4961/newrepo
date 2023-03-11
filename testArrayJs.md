@@ -21,6 +21,11 @@ for (i = 0; i < arr.length; i++) {
 ### 4.Create an array with six elements and print out each element using a forEach loop.
 ```
 let arr = [3, 4, 6, 8, 9, 4];
+arr.forEach(test);
+
+function test(num) {
+  console.log(num);
+}
 ```
 ### 5.Create an array with three elements and add a fourth element to the end of the array.
 ```
