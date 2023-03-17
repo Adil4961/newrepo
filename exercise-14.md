@@ -26,10 +26,9 @@ function sumEven(arr) {
 console.log(sumEven(arr));
 ```
 
-###3.  Given two arrays of numbers, write a function that returns a new array that contains only the unique elements from both arrays.
-let arr1 = [1, 2, 3,2,3,5,6,8];
-
+### 3.  Given two arrays of numbers, write a function that returns a new array that contains only the unique elements from both arrays.
 ```
+let arr1 = [1, 2, 3,2,3,5,6,8];
 let arr2 = [2, 3, 4,5,6];
 let uniqueArr = [];
 function test(arr1, arr2, uniqueArr) {
@@ -52,7 +51,7 @@ function test(arr1, arr2, uniqueArr) {
 console.log(test(arr1, arr2, uniqueArr).flat());
 ```
 
-###4. Given an array of strings, write a function that returns the longest string in the array.
+### 4. Given an array of strings, write a function that returns the longest string in the array.
 
 ```
 let arr1 = ["adil","harshit","azeet","shoyab","devendra","urfi javed","jamila"];
@@ -67,7 +66,7 @@ console.log(test(arr1))
 ```
 
 
-###5. Write a function that takes an array of numbers and returns the largest number in the array.
+### 5. Write a function that takes an array of numbers and returns the largest number in the array.
 let arr = [1, 2, 3, 4, 5, 6,3, 7, 28, 9];
 
 ```
@@ -85,7 +84,7 @@ console.log(test(arr))
 
 
 
-###6. Write a function that takes an array of numbers and returns a new array that only contains the even numbers from the original array.
+### 6. Write a function that takes an array of numbers and returns a new array that only contains the even numbers from the original array.
 
 ```
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -102,7 +101,7 @@ console.log(test(arr))
 
 ```
 
-###7. Write a function that takes an array of strings and returns a new array that only contains strings with more than 5 characters.
+### 7. Write a function that takes an array of strings and returns a new array that only contains strings with more than 5 characters.
 
 ```
 let arr = ["harshit", "ajeet", "devender", "bitu"];
