@@ -3,7 +3,7 @@
 
 Write a JavaScript program to check whether a string "Code" presents at 5th (index 4) position in a given string, if "Code" presents in the string return the string without "Code" otherwise return the original one.
 
-
+```
 function removeCode(str) {
   if (str.length <= 4 && str.substr(4, 4) === "Code") {
     return str.substr(0, 4) + str.substr(8);
@@ -14,11 +14,11 @@ function removeCode(str) {
 
 console.log(removeCode("HelloCodeWorld")); // Output: HelloWorld
 console.log(removeCode("Hello World")); // Output: Hello World
-
+```
 
 
 ## Question 2
-
+```
 Write a JavaScript program to capitalize the first letter of each word of a given string.
 
 Example string : 'the quick brown fox'
@@ -36,11 +36,11 @@ function test(num) {
 let string = "the quick brown fox";
 let str = test(string);
 console.log(str);
-
+```
 
 
 ## Question 3
-
+```
 Write a JavaScript program to check whether all the digits in a given number are the same or not.
 
 
@@ -57,11 +57,11 @@ function test(num) {
 let number = 11111;
 let sameno = test(number);
 console.log(sameno);
-
+```
 
 
 ## Question 4
-
+```
 Write a JavaScript function that reverse a number.
 
 
@@ -72,11 +72,11 @@ function test(num) {
 let number = 12345;
 let reversNumber = test(number);
 console.log(reversNumber);
-
+```
 
 
 ## Question 5
-
+```
 Write a JavaScript function to extract unique characters from a string.
 
 Example string : "thequickbrownfoxjumpsoverthelazydog"
@@ -98,11 +98,11 @@ function test(num) {
 let str = "thequickbrownfoxjumpsoverthelazydog";
 let unique = test(str);
 console.log(unique);
-
+```
 
 
 ## Question 6
-
+```
 Write a JavaScript function to chop a string into chunks of a given length. Test Data :
 
 console.log(string_chop('w3resource'));
@@ -125,11 +125,11 @@ function test(num, size = 1) {
 console.log(test("w3resource", 2));
 console.log(test("w3resource", 3));
 
-
+```
 
 
 ## Question 7
-
+```
 Write a JavaScript function to find a word within a string. Test Data :
 
 console.log(search_word('The quick brown fox', 'fox'));
@@ -152,11 +152,11 @@ function searchWord(str, word) {
 }
 console.log(searchWord("The quick brown  fox fox", "fox"));
 console.log(searchWord("aa, bb, cc, dd, aa", "aa"));
-
+```
 
 
 ## Question 8
-
+```
 Create an array of numbers. Now filter out all the numbers from the array where number is in between 30-50. After filtering the numbers, add 20 to each number and finally print the sum of all numbers using reduce function.
 
 
@@ -165,7 +165,7 @@ Create an array of numbers. Now filter out all the numbers from the array where 
 ```
 
 ## Question 9
-
+```
 Convert below array
 
 [[1,2], [3,4], [5,6], [7,8], [9,10]]
@@ -187,3 +187,4 @@ for (let i = 0; i < arr.length; i++) {
   newArr.push(sum);
 }
 console.log(newArr);
+```
